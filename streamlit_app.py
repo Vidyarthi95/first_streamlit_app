@@ -43,11 +43,11 @@ try:
         
 except URLError as e:
     streamlit.error()
-#Allow the end user to add a fruit to the list
 
-streamlit.write('Thanks for adding ', add_my_fruit)
 
-#this will not work correctly, but just go with it for now
+    
+    
+    
 
 
 streamlit.header("The fruit load list contains")
