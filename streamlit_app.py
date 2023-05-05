@@ -68,30 +68,3 @@ if streamlit.button('Add a Fruit to the List'):
     my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
     back_from_function = insert_row_snowflake(add_my_fruit)
     streamlit.text(back_from_function)
-
-    
-streamlit.write('The user entered ', fruit_choice)
-
-#import requests
-
-
-# take the json version of the response and normalize it
-
-
-
-
-
-
-
-
-
-#don't run anything past here while we troubleshoot
-streamlit.stop()
-
-#import snowflake.connector
-
-
-
-
-
-
